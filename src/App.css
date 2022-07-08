@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+body {
+  margin: 0, auto;
+  background: rgb(34, 0, 36);
+  background: linear-gradient(90deg, rgba(34, 0, 36, 1) 0%, rgba(124, 196, 255, 1) 0%, rgba(12, 121, 204, 1) 57%); 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  font-family: 'Fredericka the Great', cursive;
   color: white;
+  font-size: 4rem;
+  font-weight: 100;
 }
 
-.App-link {
-  color: #61dafb;
+.headline, .form-container {
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-container {
+  color:rgba(124, 196, 255, 1);
+  font-size: 1.7rem;
+  border: none 1px;
+  border-radius: 30px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+}
+
+::placeholder {
+  font-size: 1.4rem;
+  color:rgba(124, 196, 255, 1);
+  opacity: .25;
+}
+
+.btn {
+  font-size: 2rem;
+  border: none;
+  border-radius: 30px;
+  color:rgba(12, 121, 204, 1);
+  margin: 0 5px
 }
