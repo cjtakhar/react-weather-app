@@ -39,3 +39,11 @@ h1 {
   color:rgba(12, 121, 204, 1);
   margin: 0 5px
 }
+
+.weather-display {
+  color: white;
+  font-family: 'Fredericka the Great', cursive;
+  margin: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
